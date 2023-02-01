@@ -1,0 +1,25 @@
+import java.util.Arrays;
+
+class A {
+    public int[][] return2DArray() {
+        int arr[][] = new int[2][2];
+        arr[0][1] = 1;
+        arr[0][1] = 2;
+        arr[1][0] = 3;
+        arr[1][1] = 4;
+        return arr;
+    }
+}
+
+class TwoDArrayReturn {
+    public static void main(String[] args) {
+        A a = new A(); // obj of class A
+        int arr2[][] = a.return2DArray();
+        // for(int i=0; i<arr2.length; i++){
+        //     for(int j=0; j<arr2.length; j++){
+        //         System.out.println(arr2[i][j]);
+        //     }
+        // }
+        System.out.println(Arrays.deepToString(arr2)); // you have to use Arrays lib
+    }
+}

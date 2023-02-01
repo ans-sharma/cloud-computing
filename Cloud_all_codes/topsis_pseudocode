@@ -1,0 +1,32 @@
+Algorithm TOPSIS
+Input: Student Information ranking criteria values x,
+    Weight of each criterion w,
+Output: Best T
+//T is the best tradeoff solution
+
+Create a decision matrix D
+//Calculate normalized decision matrix
+FOR X, in D do
+    Calculate ny
+ENDFOR
+
+/ /Calculate normalized weighted decision matrix
+FOR My in D do
+    Calculate Vy = wing
+ENDFOR
+
+//Determine the positive and negative ideal solutions
+FOR V, in D do
+    Calculate S and S
+ENDFOR
+
+//Calculate separations from S" and S
+FOR Vy in D do
+    Calculate d, and d,
+ENDFOR
+
+//Determine R,
+FOR Vy in D do
+    Calculate R,
+ENDFOR
+//Rank the solutions and return solution with maximum R
